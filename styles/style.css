@@ -233,8 +233,14 @@ main{
     border-radius: 18px;
 }
 
+/* section-4 related style */
+
+
 .section-4{
     margin-top: 100px;
+}
+.training{
+    margin-bottom: 90px;
 }
 .taining-items>h3{
     font-weight: 900;
@@ -399,4 +405,18 @@ main{
     left: 24px;
     bottom: 16px;
 
+}
+.bmi{
+    text-align: center;
+    margin-bottom: 90px;
+}
+.bmi>h2{
+    font-weight: 900;
+    font-size: 3rem;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+.bmi>p{
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.5);
 }
