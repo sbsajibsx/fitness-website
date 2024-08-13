@@ -488,9 +488,15 @@ li:hover{
 
 }
 .bmi{
-    text-align: center;
+    width: 1060px;
+    margin: 0 auto;
     margin-bottom: 90px;
 }
+
+#bmi-title{
+
+}
+
 .bmi>h2{
     font-weight: 900;
     font-size: 3rem;
@@ -631,3 +637,99 @@ option{
 
 
 
+/* section-5 related style end */
+
+
+/* section-6 related style */
+
+
+.section-6{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.section-6-items{
+    padding: 90px 0;
+    /* margin: 0 auto; */
+}
+
+
+.section-6-header{
+    text-align: center;
+}
+
+.section-6-title{
+    font-weight: 900;
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+
+.section-6-info{
+    font-size: o.88;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 60px;
+}
+
+
+.section-6-teammates{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    padding: 20px;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+
+.section-6-teammate{
+    position: relative;
+}
+
+
+#teammate-img{
+    width: 100%;
+    height: 380px;
+    border-radius: 18px;
+    object-fit: cover;
+}
+
+
+.teammate-header{
+    position: relative;
+    position: absolute;
+    left: 40px;
+    bottom: 35px;
+    
+}
+
+.teammate-title{
+    font-weight: 900;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    /* margin-bottom: 3px; */
+}
+
+.teammate-info{
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    bottom: -10px;
+}
+
+.teammate-color{
+    width: 100%;
+    height: 380px;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+/* section-6 related style end */
+
+/* footer related style */
+
+footer{
+    max-width: 1440px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
