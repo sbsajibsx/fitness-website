@@ -78,17 +78,17 @@ header{
     border: 2px solid rgba(255, 255, 255, 0.1);
     border-radius: 30px;
 }
-#nav-ul, li{
+#nav-ul, .header-li{
     list-style: none;
     padding: 10px 20px;
 }
-#nav-ul, a{
+#nav-ul, .header-a{
     text-decoration: none;
     color: #ffffff;
     font-weight: 400;
     font-size: 1.25rem;
 }
-li:hover{
+.header-li:hover{
     background-color: #E6533C;
     border-radius: 25px;
 }
@@ -730,6 +730,74 @@ option{
 /* footer related style */
 
 footer{
-    max-width: 1440px;
+    padding: 10px;
     background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-all{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 65px;
+    /* padding: 5px; */
+}
+
+.footer-items{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.footer-info{
+    margin-top: -30px;
+}
+
+.brand-1{
+    font-style: italic;
+    color: #E6533C;
+    font-weight: 900;
+    font-size: 4.34rem;
+    align-items: center;
+}
+
+.footer-paragraph{
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.get-started{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.get-header{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+.get-li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.get-a{
+    text-decoration: none;
+    font-size: 1.44rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+hr{
+    margin-top: 80px;
+    border: none;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-end{
+    margin-top: 36px;
+    text-align: center;
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.1);
+    /* margin-bottom: 35px; */
+}
+
+.hfd{
+    margin-bottom: 35px;
 }
