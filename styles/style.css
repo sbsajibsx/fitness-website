@@ -815,7 +815,24 @@ hr{
 
 
 
+/* tab responsive */
+@media screen and (min-width:577px) and (max-width:992px) {
+    .banner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-2-all{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .section-5-all{
+        flex-direction: column;
+    }
+    .footer-items{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
 
+/* tab responsive style end */
 
 /* responsive for mobile */
 
@@ -927,20 +944,4 @@ hr{
 }
 
 
-
-/* tab responsive */
-@media screen and (min-width:577px) and (max-width:992px) {
-    .banner{
-        flex-direction: column;
-        align-items: center;
-    }
-    .section-2-all{
-        grid-template-columns: repeat(2,1fr);
-    }
-    .section-5-all{
-        flex-direction: column;
-    }
-    .footer-items{
-        grid-template-columns: repeat(1,1fr);
-    }
-}
+/* moble responsive end */
