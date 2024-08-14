@@ -282,7 +282,7 @@ header{
 }
 
 .section-3-all{
-    /* width: 100%; */
+    width: 100%;
     /* height: 370px; */
     background-color: #222222;
     margin: 41px auto;
@@ -865,6 +865,7 @@ hr{
         margin-bottom: 40px;
     }
     .section-3-all{
+        padding: 0;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -895,7 +896,7 @@ hr{
     }
     
     input{
-        /* width: 93%; */
+        /* width: 170px; */
         height: 48px;
         background: rgba(255, 255, 255, 0.1);
         color: rgba(255, 255, 255, 0.6);
