@@ -281,6 +281,7 @@ header{
 }
 
 .section-3-all{
+    /* width: 100%; */
     /* height: 370px; */
     background-color: #222222;
     margin: 41px auto;
@@ -677,7 +678,7 @@ option{
 
 
 .section-6-teammates{
-    width: 100%;
+    /* width: 100%; */
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 18px;
     padding: 20px;
@@ -845,7 +846,7 @@ hr{
         /* align-items: center; */
     }
     .section-3-all{
-        width: 353px;
+        /* width: %; */
         flex-direction: column;
         margin: 0 auto;
         /* align-items: center; */
@@ -867,6 +868,7 @@ hr{
         /* object-position: 100% 100%; */
     }
     .section-3-img{
+        margin-top: 30px;
         /* align-items: center; */
         /* margin: 35px 33px; */
         border-radius: 18px;
@@ -916,5 +918,12 @@ hr{
         background-color: rgba(255, 255, 255, 0.1);
         backdrop-filter: blur(4px);
         border-radius: 12px;
+    }
+    .section-6-teammate{
+        /* width: 100%; */
+    }
+    .section-6-teammates{
+        /* width: 100%; */
+        /* max-width: 576px; */
     }
 }
