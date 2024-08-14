@@ -29,6 +29,7 @@
     color: #ffffff;
     padding: 16px 70px;
     background-color: #ff6200;
+    border: none;
     border-radius: 30px;
 }
 
@@ -131,6 +132,7 @@ header{
     color: #ffffff;
     padding: 20px 40px;
     background-color: #ff6200;
+    border: none;
     border-radius: 30px;
 }
 .banner-button-2{
