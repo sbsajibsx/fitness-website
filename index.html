@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness Website</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- header start -->
@@ -18,6 +19,9 @@
                 <li class="header-li"><a href="#" class="header-a">Contact</a></li>
                 <li class="header-li"><a href="#" class="header-a">About</a></li>
                </ul>
+               <div class="nav-menu">
+                <i class="fa-solid fa-bars"></i>
+               </div>
         </nav>
         <!-- navbar end -->
         <div class="banner display-flex">
@@ -30,8 +34,9 @@
                 <p class="banner-info">A huge selection of health and fitness content, healthy 
                     <br>
                     recipes and transformation stories to help you get fit and stay fit!</p>
-                <button class="banner-button-1">Join Club Now!</button>
-                <button class="banner-button-2">Download App</button>
+                <div class="header-btns grid">
+                    <button class="banner-button-1">Join Club Now!</button><button class="banner-button-2">Download App</button>
+                </div>
             </div>
             <div class="banner-img">
                 <img src="images/Images 2.png" alt="">
@@ -115,7 +120,7 @@
                     With hundreds of professional workouts.</p>
                     <button class="button-1">Join Now</button>
                 </div>
-                <div class="section-3-img display-flex"><img src="images/run.jpg" alt="Run"></div>
+                <div class="section-3-img"><img src="images/run.jpg" alt="Run"></div>
             </div>
         </section>
         <!-- section-3 end -->
@@ -216,14 +221,14 @@
                     </div>
                     <div class="calculate-discrimination">
                         <form class="form-box grid" action="">
-                            <input type="text" placeholder="Height/cm">
-                            <input type="text" placeholder="Weight/kg">  
-                            <input type="text" placeholder="Age">
-                            <select>
-                                <option value="">Sex</option>
-                                <option value="Male">Male</option>
-                                <option value="Female">Female</option>
-                            </select>
+                                <input type="text" placeholder="Height/cm">
+                                <input type="text" placeholder="Weight/kg">  
+                                <input type="text" placeholder="Age">
+                                <select>
+                                    <option value="">Sex</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </select>
                             <select class="select-1">
                                 <option value="">Select an activity factor</option>
                                 <option value="pushups">Pushups</option>
@@ -334,9 +339,8 @@
                         </div>
                     </div>
             </div>
-            <div class="hfd"><hr>
+            <hr>
             <p class="footer-end">All right reserved @Fitness 2024</p>
-            </div>
         </div>
     </footer>
 </body>
