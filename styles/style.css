@@ -602,9 +602,17 @@ td{
     gap: 12px;
 }
 
+.div-in-1{
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+}
+.div-in-2{
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+}
 
 input{
-    width: 93%;
+    /* width: 50%; */
     height: 48px;
     background: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.6);
@@ -849,8 +857,9 @@ hr{
         display: none;
     }
     .banner{
+        width: 100%;
         flex-direction: column;
-        align-items: center;
+        /* align-items: center; */
     }
     .header-btns{
         grid-template-columns: repeat(2,1fr);
@@ -870,8 +879,15 @@ hr{
         align-items: center;
         justify-content: center;
     }
+    .section-3-items{
+        align-items: center;
+    }
+    .section-3-btn{
+        margin: 0 auto;
+    }
     .section-3-img{
-        margin-right: 50px;
+        margin-right: 70px;
+        margin-bottom: 35px;
     }
     
     .section-3-img>img{
@@ -889,14 +905,18 @@ hr{
         flex-direction: column;
         align-items: center;
     }
+    .calculate{
+        width: 100%;
+    }
     .form-box{
-        max-width: 554px;
+        /* width: 100%; */
+        /* max-width: 554px; */
         grid-template-columns: repeat(2,1fr);
-        align-items: center;
+        /* align-items: center; */
     }
     
     input{
-        /* width: 170px; */
+        width: auto;
         height: 48px;
         background: rgba(255, 255, 255, 0.1);
         color: rgba(255, 255, 255, 0.6);
@@ -904,6 +924,9 @@ hr{
         outline: none;
         border-radius: 8px;
         padding: 10px;
+    }
+    select{
+        width: auto;
     }
     
     .section-6-teammates{
@@ -932,7 +955,7 @@ hr{
     }
     .glass-2{
         position: absolute;
-        right: -5px;
+        right: 0;
         bottom: 430px;
         width: 150px;
         height: 98px;
